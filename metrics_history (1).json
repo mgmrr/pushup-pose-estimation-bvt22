@@ -1,0 +1,22 @@
+{
+    "project_name": "Human Pose Estimation & Pushup Tech Analysis",
+    "student_variant": 22,
+    "group": "BVT22",
+    "best_model_deployed": "YOLOv11-pose",
+    "input_resolution": "640x640",
+    "metrics_on_validation": {
+        "mAP_50_pose": 0.8942,
+        "mAP_50_95_pose": 0.5813,
+        "inference_time_gpu_ms": 12.4
+    },
+    "exercise_rules": {
+        "tracked_joints": [
+            "left_shoulder",
+            "left_elbow",
+            "left_wrist"
+        ],
+        "down_threshold_degree": 100,
+        "up_threshold_degree": 160
+    },
+    "system_status": "Ready for production / integration"
+}
